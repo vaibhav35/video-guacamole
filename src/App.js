@@ -10,7 +10,7 @@ import WatchPage from "./components/WatchPage";
 function App() {
   return (
     <Provider store={store}>
-      <div className="grid grid-cols-12">
+      <div className="">
         <Header />
         <Body />
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const VideoCards = ({ info }) => {
+const VideoCard = ({ info }) => {
   const { snippet } = info;
   const { title, thumbnails } = snippet;
   return (
@@ -11,4 +11,4 @@ const VideoCards = ({ info }) => {
   );
 };
 
-export default VideoCards;
+export default VideoCard;

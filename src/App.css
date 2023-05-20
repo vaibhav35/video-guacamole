@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+
+    .sidebar-small-screen {
+        @apply fixed bg-white z-20 top-0 py-3 px-6 h-screen;
+    } 
+
+    .iframe-height-width-ratio {
+/* 16:9 height width ratio */
+        @apply w-full h-screen-57 lg:h-screen-37 ;
+
+
+        
+    }
+}
+
+@layer base {
+
+    .w-screen-70 {
+        width:  65vw;
+    }
+    .w-screen-45 {
+        width:  45vw;
+    }
+    .h-screen-57 {
+        height: 56.25vw;
+    }
+    .h-screen-37{
+        height: 37.5vw;
+    }
+
+}
