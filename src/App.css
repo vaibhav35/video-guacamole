@@ -32,5 +32,15 @@
     .h-screen-37{
         height: 37.5vw;
     }
+    .h-screen-50{
+        height: 50vh;
+    }
+    .h-screen-75{
+        height: 75vh;
+    }
+    .h-screen-25{
+        height: 25vh;
+    }
+
 
 }

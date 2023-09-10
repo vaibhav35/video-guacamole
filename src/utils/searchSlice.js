@@ -7,6 +7,7 @@ const searchSlice = createSlice({
   },
   reducers: {
     addSuggestion: (state, action) => {
+      
       state.cache = {...state.cache, ...action.payload};
     },
   },
