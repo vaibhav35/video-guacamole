@@ -86,7 +86,7 @@ const WatchPage = () => {
   };
 
   const videoSrc =
-    "http://www.youtube.com/embed/" + videoId + "?enablejsapi=1&";
+    "https://www.youtube.com/embed/" + videoId + "?enablejsapi=1&";
   return (
     <>
       <div className="col-span-12 lg:col-span-8">
